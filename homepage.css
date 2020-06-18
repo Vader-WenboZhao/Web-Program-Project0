@@ -1,0 +1,42 @@
+.alert {
+    margin: 20px;
+    position:absolute;
+    top:600px;
+}
+
+h1 {
+    margin: 15px;
+    text-align: center
+}
+
+table[id="pics"] {
+  position:absolute;
+  left:30px;
+}
+
+p[id="1"] {
+    position:absolute;
+    top: 140px;
+    left: 390px;
+    right:60px;
+}
+
+ol > li {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+@media (min-width: 500px) {
+    h2 {
+        content: "Movie Introduction: The Curious Case of Benjamin Button";
+        text-align: center
+    }
+}
+
+@media (max-width: 499px) {
+    h2 {
+        content: "The Curious Case of Benjamin Button";
+        text-align: center
+    }
+}

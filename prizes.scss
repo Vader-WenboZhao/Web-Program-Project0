@@ -1,0 +1,39 @@
+$prizeTypeColor: red;
+$prizeGetColor: green;
+$prizeNominationColor: black;
+
+.grid {
+    background-color: lightseagreen;
+    display: grid;
+    padding: 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    grid-template-columns: auto auto auto auto;
+}
+
+%grid-item {
+    background-color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.grid-item-actors {
+    @extend %grid-item;
+    font-style: oblique;
+}
+
+.nomination {
+    color: $prizeNominationColor;
+}
+
+.get {
+    font-weight: bold;
+    color: $prizeGetColor;
+}
+
+ol {
+      li{
+          font-family:Arial,Verdana,Sans-serif;
+      }
+}

@@ -1,0 +1,28 @@
+.grid {
+  background-color: lightseagreen;
+  display: grid;
+  padding: 20px;
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+  grid-template-columns: auto auto auto auto; }
+
+.grid-item-actors {
+  background-color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center; }
+
+.grid-item-actors {
+  font-style: oblique; }
+
+.nomination {
+  color: black; }
+
+.get {
+  font-weight: bold;
+  color: green; }
+
+ol li {
+  font-family: Arial,Verdana,Sans-serif; }
+
+/*# sourceMappingURL=prizes.css.map */
